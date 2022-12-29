@@ -1,0 +1,26 @@
+:root{ 
+        --lightblue: #5fc9f3;  
+        --blue: #2e94b9; 
+        --darkblack: #22313f;  
+        --dark: #34495e; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(to right , var(--lightblue) , var(--blue));
+}
+
+.main-con{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
